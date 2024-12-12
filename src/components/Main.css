@@ -1,0 +1,64 @@
+form{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    border: 2px solid #ddd;
+    padding: 20px 20px;
+    width: 300px;
+    margin: 50px auto;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+}
+form div input{
+    height: 20px;
+    outline: none;
+    border: 1px solid #ddd;
+}
+form div p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: pink;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .5s;
+    border-radius: 12px;
+}
+button:hover{
+    background-color: #000;
+}
+.wrapper{
+    display: flex;
+    gap: 20px;
+}
+.user{
+    margin-left: 10px;
+    margin-top: 10px;
+    border: 2px solid #ddd;
+    width: 250px;
+    padding: 10px 14px;
+}
+.user div{
+    display: flex;
+    gap: 7px;
+}
+.user img{
+   width: 60%;
+}
+.user p{
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 600;
+}
+.btns{
+    display: flex;
+    gap: 10px;
+}
